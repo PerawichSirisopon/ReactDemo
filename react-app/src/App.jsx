@@ -7,15 +7,16 @@ import PostFunctionComponent from './components/PostFunctionComponent'
 import Comment from './components/Comment'
 import StateInClass from './components/StateInClass'
 import StateInFunction from './components/StateInFunction'
-
+import Card from './components/Card'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
 
-      <StateInClass Name="Minnasan" />
-      <StateInFunction Name="Perawich" />
+      <StateInClass />
+      <StateInFunction />
+      <Card />
 
     </>
   )
